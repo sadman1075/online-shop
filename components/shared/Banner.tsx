@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import banner from "../../app/assets/images/banner.png";
+import banner from "../../app/assets/images/bannerm.jpg";
 import sbanner1 from "../../app/assets/images/sbanner1.png";
 import sbanner2 from "../../app/assets/images/sbanner2.png";
 import AosWrapper from "../AosWrapper";
@@ -39,10 +39,9 @@ export default function Banner() {
 
             {/* Left Content */}
             <div className="md:max-w-md absolute left-6 top-3/4 -translate-y-1/2 flex flex-col gap-4">
-              <h2 className="text-xl md:text-4xl font-bold md:mb-2">NIKE AIR MAX</h2>
+              <h2 className="text-xl md:text-4xl font-bold md:mb-2">PREMIUM STYLE</h2>
               <p className="text-xs md:text-sm md:mb-4">
-                Nike introducing the new air max for <br /> everyone&apos;s comfort
-              </p>
+                Everyday products, designed for <br /> comfort and simplicity.              </p>
               <button className="bg-blue-600  md:px-5 py-2 rounded-md text-sm font-semibold hover:bg-blue-700">
                 SHOP NOW
               </button>

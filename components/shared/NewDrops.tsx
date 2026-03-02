@@ -82,7 +82,7 @@ export function NewDropsCard() {
                                     alt="Event cover"
                                     width={500}
                                     height={500}
-                                    className="relative z-20 border-4 border-white rounded-2xl w-full object-cover hover:scale-105 transition-transform duration-300 ease-out group-hover:scale-110"
+                                    className="relative z-20 border-4   border-white rounded-2xl w-full h-64 object-cover hover:scale-105 transition-transform duration-300 ease-out group-hover:scale-110"
                                 />
                                 <CardHeader>
 
