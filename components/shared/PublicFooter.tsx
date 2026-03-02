@@ -37,7 +37,7 @@ function PublicFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-4 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} SS DOC. All Rights Reserved.
+          &copy; {new Date().getFullYear()} SS Online SHop. All Rights Reserved.
         </div>
       </div>
     </footer>

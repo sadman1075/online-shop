@@ -37,20 +37,20 @@ const stats = [
 
 export default function StatisticCards() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full m-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6 m-5">
       {stats.map((stat, index) => {
         const Icon = stat.icon;
         return (
           <div
             key={index}
-            className="group bg-white rounded-2xl border border-gray-200 p-6 
+            className="group  rounded-2xl border border-gray-200 p-6 
                        shadow-sm hover:shadow-lg transition-all duration-300"
           >
             {/* Top Row */}
-            <div className="flex items-center justify-between w-full  md:w-84 md:h-32">
+            <div className="flex items-center justify-between md:w-64 md:h-32   xl:w-84 xl:h-32">
               <div>
-                <p className="text-sm text-gray-500">{stat.title}</p>
-                <h3 className="text-2xl font-bold text-gray-900 mt-1">
+                <p className="text-sm ">{stat.title}</p>
+                <h3 className="text-2xl font-bold  mt-1">
                   {stat.value}
                 </h3>
               </div>

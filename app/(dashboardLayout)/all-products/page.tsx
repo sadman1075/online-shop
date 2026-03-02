@@ -52,7 +52,7 @@ export default function UsersTable() {
   );
 
   return (
-    <div className="w-full rounded-2xl border bg-white shadow-sm  overflow-x-auto m-10">
+    <div className="w-full rounded-2xl border shadow-sm  overflow-x-auto m-10">
       {/* Loading */}
       {loading && (
         <div className="py-10 text-center text-muted-foreground">
@@ -72,7 +72,7 @@ export default function UsersTable() {
         <>
           <Table >
             <TableHeader>
-              <TableRow className="bg-gray-50">
+              <TableRow className="">
                 <TableHead className="px-6">Product</TableHead>
                 <TableHead>Description</TableHead>
                 <TableHead>Category</TableHead>
@@ -121,7 +121,7 @@ export default function UsersTable() {
           </Table>
 
           {/* Pagination */}
-          <div className="flex items-center justify-between px-6 py-4 border-t bg-gray-50">
+          <div className="flex items-center justify-between px-6 py-4 border-t ">
             <p className="text-sm text-muted-foreground">
               Page {page} of {totalPages}
             </p>
